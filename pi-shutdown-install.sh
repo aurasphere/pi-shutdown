@@ -24,7 +24,7 @@
 # SOFTWARE.                                                                      #
 # ============================================================================== #
 #                                                                                #
-# DESCRIPTION : Installs the pishutdown.py script on this device.                #
+# DESCRIPTION : Installs the pi-shutdown.py script on this device.                #
 # AUTHOR : Donato Rimenti                                                        #
 # COPYRIGHT : Copyright (c) 2019 Donato Rimenti                                  #
 # LICENSE : MIT                                                                  #
@@ -38,12 +38,12 @@ sudo apt install python3-gpiozero
 sudo mkdir -p /usr/local/bin
 
 # Gives execution permission to the script
-chmod +x pishutdown.py
+chmod +x pi-shutdown.py
 
 # Copies the script file to their final locations
-sudo cp pishutdown.py /usr/local/bin
-sudo cp pishutdown.service /etc/systemd/system
+sudo cp pi-shutdown.py /usr/local/bin
+sudo cp pi-shutdown.service /etc/systemd/system
 
 # Creates and starts the service
-sudo systemctl enable pishutdown.service
-sudo systemctl start pishutdown.service
+sudo systemctl enable pi-shutdown.service
+sudo systemctl start pi-shutdown.service
