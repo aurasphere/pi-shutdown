@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) 2019 Donato Rimenti
 Copyright (c) 2019 George Ilyes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
