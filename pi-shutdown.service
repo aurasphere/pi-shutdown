@@ -22,7 +22,7 @@
 # SOFTWARE.                                                                      #
 # ============================================================================== #
 #                                                                                #
-# DESCRIPTION : Service configuration for pishutdown.py.                         #
+# DESCRIPTION : Service configuration for pi-shutdown.py.                         #
 # AUTHOR : Donato Rimenti                                                        #
 # COPYRIGHT : Copyright (c) 2019 Donato Rimenti                                  #
 # LICENSE : MIT                                                                  #
@@ -38,7 +38,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/bin/python3 /usr/local/bin/pishutdown.py
+ExecStart=/usr/bin/python3 /usr/local/bin/pi-shutdown.py
 
 [Install]
 WantedBy=multi-user.target
